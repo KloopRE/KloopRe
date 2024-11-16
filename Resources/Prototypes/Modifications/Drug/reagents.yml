@@ -19,6 +19,9 @@
         addictionEffect: 1
         toleranceEffect: 0.001
         drugStrenght: 4
+      - !type:MovespeedModifier
+        walkSpeedModifier: 1.45
+        sprintSpeedModifier: 1.45
 
 - type: reaction
   id: FlashDose
