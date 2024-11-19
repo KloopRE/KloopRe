@@ -57,7 +57,7 @@ public sealed class DrugInitializeMachineSystem : EntitySystem
         var dna = drugTestStick.DNA;
         var dependencyLevel = drugTestStick.DependencyLevel;
         var addictionLevel = (int)Math.Round(drugTestStick.AddictionLevel);
-        var tolerance = (int)Math.Round(drugTestStick.Tolerance);
+        var tolerance = Math.Round(drugTestStick.Tolerance, 2);
         var withdrawalLevel = (int)Math.Round(drugTestStick.WithdrawalLevel);
         var thresholdTime = (int)Math.Round(drugTestStick.ThresholdTime);
 
